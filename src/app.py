@@ -3,8 +3,8 @@ import streamlit as st
 from openai import OpenAI
 from dotenv import load_dotenv
 
-from src.document_loader import load_document
-from src.rag_engine import RAGEngine
+from document_loader import load_document
+from rag_engine import RAGEngine
 
 # 构建对话历史函数
 def build_conversation_context(messages: list, max_turns: int = 5) -> str:

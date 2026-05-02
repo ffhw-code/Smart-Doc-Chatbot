@@ -2,6 +2,11 @@
 
 基于 RAG（检索增强生成）的文档智能问答系统。支持上传 TXT、PDF、Word 文档，通过大语言模型（阿里云百炼）和本地向量检索，实现精准、可追溯的对话式问答。
 
+##  项目体验链接
+```bash
+https://www.modelscope.cn/studios/zm2389238/Smart-Doc-Chat
+```
+
 ##  功能特点
 
 -  支持多种文档格式：TXT、PDF、DOCX
